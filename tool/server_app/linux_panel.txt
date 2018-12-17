@@ -1,0 +1,17 @@
+/--linux panel--/
+/**cpanel**/
+cd /home && curl -o latest -L https://securedownloads.cpanel.net/latest && sh latest
+
+/**vestacp**/
+curl -O http://vestacp.com/pub/vst-install.sh && bash vst-install.sh
+
+/--centos panel--/
+/**appnode**/
+INSTALL_AGENT=1 INIT_SWAPFILE=1 bash -c "$(curl -sS http://dl.appnode.com/install.sh)"
+
+/**bt**/
+yum install -y wget && wget -O install.sh http://download.bt.cn/install/install.sh && sh install.sh
+
+/--ubuntu--/
+/**bt**/
+wget -O install.sh http://download.bt.cn/install/install-ubuntu_6.0.sh && sudo bash install.sh
