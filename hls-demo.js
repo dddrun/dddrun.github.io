@@ -91,7 +91,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./demo/main.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "main.js.js");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -142,9 +142,9 @@ exports.copyTextToClipboard = copyTextToClipboard;
 
 /***/ }),
 
-/***/ "./demo/main.js":
+/***/ "main.js.js":
 /*!**********************!*\
-  !*** ./demo/main.js ***!
+  !*** main.js.js ***!
   \**********************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
